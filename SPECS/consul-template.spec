@@ -1,7 +1,7 @@
 %if 0%{?_version:1}
 %define         _verstr      %{_version}
 %else
-%define         _verstr      0.19.4
+%define         _verstr      0.19.5
 %endif
 
 Name:           consul-template
@@ -103,6 +103,8 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Fri Oct 19 2018 robotman321 <brad@ftwentertainment.com>
+- Bump version to 0.19.5
 * Sun Mar 25 2018 ambakshi ambakshi@gmail.com
 - Bump version to 0.19.4
 * Tue Aug 22 2017 mh <mh@immerda.ch> - 0.19.0-1

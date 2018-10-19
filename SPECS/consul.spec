@@ -1,7 +1,7 @@
 %if 0%{?_version:1}
 %define         _verstr      %{_version}
 %else
-%define         _verstr      1.0.6
+%define         _verstr      1.3.0
 %endif
 
 Name:           consul
@@ -111,6 +111,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Fri Oct 29 2018 robotman321 <brad@ftwentertainment.com>
+- Bump version to 1.3.0
+
 * Sun Mar 25 2018 ambakshi ambakshi@gmail.com
 - Bump version to 1.0.6
 
